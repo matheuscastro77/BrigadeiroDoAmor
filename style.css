@@ -1,94 +1,43 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
+  background-color: #fff0f5;
   font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background: #fff0f5;
-  color: #333;
-}
-
-header {
-  background: #ff4f81;
-  color: white;
-  padding: 40px 20px;
   text-align: center;
 }
 
-header h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
 }
 
-header p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
+.img-topo,
+.img-conteudo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background: #fff;
-  color: #ff4f81;
+.botao {
+  display: block;
+  background-color: #ff0055;
+  color: white;
+  text-decoration: none;
+  padding: 16px;
   border-radius: 8px;
   font-weight: bold;
-  text-decoration: none;
+  font-size: 18px;
+  margin: 12px 0;
   transition: background 0.3s;
 }
 
-.btn:hover {
-  background: #ffe5ed;
+.botao:hover {
+  background-color: #e6004c;
 }
 
-.video {
-  padding: 40px 20px;
-  text-align: center;
-  background: #fff;
-}
-
-.video h2 {
-  margin-bottom: 20px;
-  color: #ff4f81;
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.oferta {
-  padding: 40px 20px;
-  text-align: center;
-  background: #ffe5ed;
-}
-
-.oferta h2 {
-  color: #c2185b;
-  margin-bottom: 20px;
-}
-
-.oferta p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-footer {
-  background: #ff4f81;
-  color: white;
-  text-align: center;
-  padding: 20px;
+.aviso {
+  font-size: 14px;
+  color: #777;
+  margin-top: 20px;
 }
